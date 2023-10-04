@@ -5,7 +5,7 @@ class BlogPostTest < ActiveSupport::TestCase
     assert BlogPost.new(published_at: nil).draft?
   end
 
-  test "draft? returns false for draft blog post" do
+  test "draft? returns false for published blog post" do
     refute BlogPost.new(published_at: 1.year.ago).draft?
   end
 end
