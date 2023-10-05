@@ -1,5 +1,5 @@
 
-# A Simple and Dynamic Blog Application with Ruby on Rails .
+# A Simple and Dynamic Blog Application with Ruby on Rails 
 
 This project is a simple and dynamic blog application built with Ruby on Rails. It allows users to create, edit, delete, and view blog posts with rich text and images. It also features authentication, scheduling, and live updates. 
 
