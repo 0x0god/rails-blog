@@ -13,5 +13,5 @@ user.update!(
 )
 
 # 100.times do |i|
-#     BlogPost.create title: "Blog Post #{i}", content: "Hello World"
+#     BlogPost.create title: "Blog Post #{i}", content: "Hello World", published_at: Time.current
 # end
